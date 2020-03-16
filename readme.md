@@ -28,6 +28,9 @@ Techonlogie utilisé:
 HTML & CSS
 
 Branch master:
-Push final
+Push final de la branch dev
+push du read.me
 
 branch dev:
+push du développement
+résolution des bugs et des conflits
