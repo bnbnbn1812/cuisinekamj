@@ -9,7 +9,7 @@ Vendée : Gache vendéenne, jambon vendéen, Fion vendéen.
 Italie : Pizza, pâtes, fromages...
 
 Commit:
-git commit -m <info_du_commit>
+git commit -m "info_du_commit"
 
 Type commit :
 fix : Correction d’un bug
@@ -24,7 +24,8 @@ fo : pour des modifications effectuées sur le front-office de la plateforme
 
 all : pour des modifications génériques à l'ensemble de la plateforme
 
-
+Techonlogie utilisé:
+HTML & CSS
 
 Branch master:
 Push final
