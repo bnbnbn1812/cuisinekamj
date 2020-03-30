@@ -8,10 +8,9 @@ body {
   border-style: double;
   border-color: black;
   border-radius: 3cm;
+  background-color: white;
 }
 
 span {
-  border-width: 25px;
-  border-style: dotted;
-  border-color: blanchedalmond;
+  font-size: 1.5cm;
 }
