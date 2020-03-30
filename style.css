@@ -1,4 +1,17 @@
-body{
-    background-color: #deb886
-    ;
+body {
+  background-color: #deb886;
+}
+
+.Bretagne {
+  text-align: center;
+  border-width: 50px;
+  border-style: double;
+  border-color: black;
+  border-radius: 3cm;
+}
+
+span {
+  border-width: 25px;
+  border-style: dotted;
+  border-color: blanchedalmond;
 }
