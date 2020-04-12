@@ -1,299 +1,423 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- icones fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- icones fontawesome -->
+
+    <title>Plats du monde</title>
+</head>
+
 <body>
-    <div class="card">
-        <img class="card-img-top" src="../cuisinekamj/img/galette.jpg" alt="image" />
-        <div class="card-body">
-            <h5 class="card-title">Galette de bretagne</h5>
-            <p class="card-text">
-                La crêpe bretonne est un plat traditionnel consommé couramment en
-                Basse-Bretagne. Devenue particulièrement renommée en France et
-                ailleurs.
-            </p>
-            <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
-                voir plus..
-            </button>
-            <!-- Modal -->
-            <div class="modal fade" id="card3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
-                aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLongTitle">
-                                Modal title
-                            </h5>
-                            <button type="button" class="voir plus" data-dismiss="modal" aria-label="voir plus">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            <br /><br />
-                            La galette est un plat typiquement breton. Tout d'abord, un
-                            petit cour d'histoire :
-                            <br />
-                            Le sarrasin, ingrédient phare des galettes et crêpes bretonne,
-                            vient d'Asie, et fut ramené au XIIème siècle lors des croisades.
-                            Les terres de Bretagne sont excellentes pour cultiver cette
-                            céréale. La galette de sarrasin se cuisait à la poêle,
-                            uniquement sur une face et restait souple et tendre. La
-                            tradition voulait qu’on la coupe en fines lamelles pour
-                            accompagner des soupes et bouillons. Mais elle pouvait être
-                            aussi garnie d'œufs, de pâté, de saucisses, de sardines et de
-                            multiples autres produits locaux.
-                            <br /><br />
-                            Il ne faut pas confondre la galette bretonne avec la crêpe
-                            bretonne. La crêpe est une pâte sucrée, à base de farine, oeuf,
-                            lait, sucre et eau. On peut également y rajouter des ingrédients
-                            comme du rhum, de la canelle .. Pour y ajouter du goût en
-                            fonction de ses préférences.
-                            <br /><br />
-                            L'avantage de la galette est que c'est facile à préparer et peu
-                            onéreux. De plus, on peut y metter quasiment tous les aliments,
-                            même si le sucré s'y prête un peu moins bien. Chacun est donc
-                            libre de faire sa propre recette en fonction de ses goûts !
-                            Enjoy :)
-                            <br /><br />
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">
-                                Fermer
-                            </button>
-                        </div>
-                        <img class="card-img-top" src="../cuisinekamj/img/tapenade.jpg" alt="image" />
-                        <div class="card-body">
-                            <h5 class="card-title">Tapenade de marseille</h5>
-                            <p class="card-text">Un apéritif Marseillais basique se compose d'un verre de Ricard bien
-                                frais et d'une
-                                bonne tapenade,deux spécialités typiquement Marseillaises.</p>
-                            <!-- Button trigger modal -->
-                            <button type="button" class="btn btn-primary" data-toggle="modal"
-                                data-target="#exampleModalLong">
-                                voir plus..
-                            </button>
-                            <!-- Modal -->
-                            <div class="modal fade" id="card2" tabindex="-1" role="dialog"
-                                aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-                                <div class="modal-dialog" role="document">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-                                            <button type="button" class="" data-dismiss="modal" aria-label="">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div>
-                                        <div class="modal-body">
-                                            <p>
-                                                Un apéritif Marseillais basique se compose d'un verre de Ricard bien
-                                                frais et d'une
-                                                bonne tapenade,
-                                                deux
-                                                spécialités typiquement Marseillaises.
-                                            </p>
-                                            <p>
-                                                La tapenade est une recette traditionnelle emblématique de la cuisine
-                                                provençale,
-                                                inventée en 1880 à
-                                                Marseille,
-                                                à base d'olives vertes ou noires, traditionnellement pilonnées dans un
-                                                mortier avec
-                                                de l'huile
-                                                d'olive,
-                                                des
-                                                câpres,
-                                                des filets d'anchois, de l'ail, et des herbes de Provence.
-                                            </p>
-                                            <p>
-                                                La société Ricard est une société anonyme française fondée le 17 juillet
-                                                1932 à
-                                                Marseille par Paul
-                                                Ricard.
-                                                Elle appartient aujourd'hui au groupe Pernod Ricardet produit le pastis
-                                                Ricard,
-                                                boisson à base
-                                                d'anis
-                                                vert
-                                                et de réglisse.
-                                            </p>
-                                            <p>
-                                                Recette Tapenade :
-                                                Recette pour 4 personnes. La recette de la tapenade noire est la recette
-                                                provençale
-                                                traditionnelle
-                                                mais
-                                                pour
-                                                la "tapenade" verte la recette est très revisitée, sans câpres ni
-                                                anchois. À servir
-                                                avec des
-                                                croûtons,
-                                                gressins, bâtonnets de légume... parfait pour l'apéro.
 
-                                                <p>Ingrédients :</p>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
 
-                                                Tapenade noire :
+    <div class="plats du monde" id="myHeader">
+        <a href="index.html" class="text">Plats.Du.Monde</a>
+        <nav class="header-nav">
+            <a>Recettes</a>
+            <a>Blog</a>
+            <a href="#"><i class="fa fa-heart"></i></a>
+            <a href="#"><i class="fa fa-search"></i></a>
+        </nav>
 
-                                                - 300gr d'olives noires dénoyautées
+    </div>
+    <div id="background-image">
+        <div id="color-overlay"></div>
+    </div>
 
-                                                - 1 c. à soupe de câpres
+    <div class="card-deck all-cards">
+        <div class="card">
+            <img class="card-img-top" src="../cuisinekamj/img/fionvendeen.jpg" alt="image" />
+            <div class="card-body">
+                <h5 class="card-title">Fion vendéen</h5>
+                <p class="card-text">Le fion, fion vendéen ou flan maraîchin est un flan aux œufs parfumé.</p>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                    voir plus..
+                </button>
 
-                                                - 5 filets d'anchois
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Fion vendéen</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Le fion, fion vendéen ou flan maraîchin1 est un flan aux œufs parfumé.<p>
 
-                                                - 2 gousses d'ail
+                                        <p>Cette pâtisserie, typique du Marais vendéen, se prépare
+                                            traditionnellement
+                                            lors des fêtes de
+                                            Pâques
+                                            et des communions, époque à laquelle
+                                            les poules pondent en abondance. À l'origine, il était fait dans un
+                                            moule à
+                                            bords très
+                                            hauts.
+                                        </p>
 
-                                                - Sel et poivre
-
-                                                - Huile d'olive
-                                                Préparation :
-
-                                                Rincez les olives et les anchois à l'eau froide et mixez l'ensemble en
-                                                ajoutant
-                                                l'huile d'olive
-                                                jusqu'à
-                                                consistance souhaitée. Servir très frais.
-
-                                                Tapenade verte :
-
-                                                tapenade verte
-                                                - 300gr d'olives vertes dénoyautées
-
-
-
-
-                                                <div class="card-deck">
-                                                    <div class="card">
-                                                        <img class="card-img-top"
-                                                            src="../cuisinekamj/img/fionvendeen.jpg" alt="image" />
-                                                        <div class="card-body">
-                                                            <h5 class="card-title">Fion vendéen</h5>
-                                                            <p class="card-text">Le fion, fion vendéen ou flan maraîchin
-                                                                est un flan aux œufs parfumé.</p>
-                                                            <!-- Button trigger modal -->
-                                                            <button type="button" class="btn btn-primary"
-                                                                data-toggle="modal" data-target="#exampleModalLong">
-                                                                voir plus..
-                                                            </button>
-                                                            <!-- Modal -->
-                                                            <div class="modal fade" id="card1" tabindex="-1"
-                                                                role="dialog" aria-labelledby="exampleModalLongTitle"
-                                                                aria-hidden="true">
-                                                                <div class="modal-dialog" role="document">
-                                                                    <div class="modal-content">
-                                                                        <div class="modal-header">
-                                                                            <h5 class="modal-title"
-                                                                                id="exampleModalLongTitle">Modal title
-                                                                            </h5>
-                                                                            <button type="button" class=""
-                                                                                data-dismiss="modal" aria-label="">
-                                                                                <span aria-hidden="true">&times;</span>
-                                                                            </button>
-                                                                        </div>
-                                                                        <div class="modal-body">
-                                                                            <p>Le fion, fion vendéen ou flan maraîchin1
-                                                                                est un flan aux œufs parfumé.<p>
-
-                                                                                    <p>Cette pâtisserie, typique du
-                                                                                        Marais vendéen, se prépare
-                                                                                        traditionnellement
-                                                                                        lors des fêtes de
-                                                                                        Pâques
-                                                                                        et des communions, époque à
-                                                                                        laquelle
-                                                                                        les poules pondent en abondance.
-                                                                                        À l'origine, il était fait dans
-                                                                                        un moule à
-                                                                                        bords très
-                                                                                        hauts.
-                                                                                    </p>
-                                                                                </p>Ce flan est composé d'une pâte qui
-                                                                                après cuisson forme une sorte de croûte.
-                                                                                Le
-                                                                                flan proprement
-                                                                                dit,
-                                                                                appelé « fionée » ou « fionaï »,
-                                                                                est un mélange d'œufs et de lait,
-                                                                                parfumé à la cannelle et à la vanille.
-                                                                                Le flan
-                                                                                maraîchin est un
-                                                                                dérivé
-                                                                                de
-                                                                                la fionaïe entourée de pâte.</p>
-                                                                        </div>
-                                                                        <div class="modal-footer">
-                                                                            <button type="button"
-                                                                                class="btn btn-secondary"
-                                                                                data-dismiss="modal">Fermer</button>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-
-
-
-                                                    - 4/5 cornichons coupés en petits morceaux
-
-                                                    - 1 c. à café rase de pesto (Barilla i pesti alla Genovese)
-
-                                                    - 1 c. à café bombé de crème fraîche
-
-                                                    - 2 gousses d'ail
-
-                                                    - Huile d'olive
-
-                                                    - Sel et poivre
-
-                                                    Préparation :
-
-                                                    Rincez les olives et mixez tous les ingrédients en ajoutant l'huile
-                                                    d'olive
-                                                    jusqu'à
-                                                    consistance
-                                                    souhaitée.
-                                                    Servir très frais.
-
-                                            </p>
-                                            <p>
-                                                Doser son Ricard :
-
-                                                C'est au contact d'une eau bien fraîche, d'une température idéalement
-                                                comprise entre
-                                                5 et 8°C, que
-                                                l'essence
-                                                d'anis libère parfaitement ses arômes.
-                                                Selon les goûts, 3 à 7 volumes d'eau sont ajoutés, 5 étant la
-                                                recommandation des
-                                                puristes ! L'huile
-                                                essentielle d'anis de Ricard se trouble facilement.
-                                                Les glaçons viennent toujours en dernier ! L'huile essentielle d'anis
-                                                est fragile.
-                                                Trop vite
-                                                refroidie,
-                                                elle
-                                                forme des paillettes qui apparaissent à la surface du verre.
-                                                Pour préserver l'aspect homogène de Ricard, on prendra soin de toujours
-                                                mettre les
-                                                glaçons après
-                                                l'eau.
-                                                C'est également pour cette raison qu'une
-                                                bouteille de Ricard ne doit pas être conservée à moins de 12°C pour
-                                                préserver toutes
-                                                ses qualités.
-                                            </p>
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary"
-                                                data-dismiss="modal">Fermer</button>
-                                        </div>
-                                    </div>
-                                </div>
+                                    </p>Ce flan est composé d'une pâte qui après cuisson forme une sorte de croûte.
+                                    Le
+                                    flan proprement
+                                    dit,
+                                    appelé « fionée » ou « fionaï »,
+                                    est un mélange d'œufs et de lait, parfumé à la cannelle et à la vanille. Le flan
+                                    maraîchin est un
+                                    dérivé
+                                    de
+                                    la fionaïe entourée de pâte.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="../cuisinekamj/img/tapenade.jpg" alt="image" />
+            <div class="card-body">
+                <h5 class="card-title">Tapenade de marseille</h5>
+                <p class="card-text">Un apéritif Marseillais basique se compose d'un verre de Ricard bien frais et d'une
+                    bonne tapenade,deux spécialités typiquement Marseillaises.</p>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                    voir plus..
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Tapenade et Ricard</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p>
+                                    Un apéritif Marseillais basique se compose d'un verre de Ricard bien frais et d'une
+                                    bonne tapenade,
+                                    deux
+                                    spécialités typiquement Marseillaises.
+                                </p>
+                                <p>
+                                    La tapenade est une recette traditionnelle emblématique de la cuisine provençale,
+                                    inventée en 1880 à
+                                    Marseille,
+                                    à base d'olives noires ou vertes, traditionnellement pilonnées dans un mortier avec
+                                    de l'huile
+                                    d'olive,
+                                    des
+                                    câpres,
+                                    des filets d'anchois, de l'ail, et des herbes de Provence.
+                                </p>
+                                <p>
+                                    La société Ricard est une société anonyme française fondée le 17 juillet 1932 à
+                                    Marseille par Paul
+                                    Ricard.
+                                    Elle appartient aujourd'hui au groupe Pernod Ricardet produit le pastis Ricard,
+                                    boisson à base
+                                    d'anis
+                                    vert
+                                    et de réglisse.
+                                </p>
+                                <p>
+                                    Recette Tapenade :
+                                    Recette pour 4 personnes. La recette de la tapenade noire est la recette provençale
+                                    traditionnelle
+                                    mais
+                                    pour
+                                    la "tapenade" verte la recette est très revisitée, sans câpres ni anchois. À servir
+                                    avec des
+                                    croûtons,
+                                    gressins, bâtonnets de légume... parfait pour l'apéro.
+
+                                    <p>Ingrédients :</p>
+
+                                    Tapenade noire :
+
+                                    - 300gr d'olives noires dénoyautées
+
+                                    - 1 c. à soupe de câpres
+
+                                    - 5 filets d'anchois
+
+                                    - 2 gousses d'ail
+
+                                    - Sel et poivre
+
+                                    - Huile d'olive
+
+                                    Préparation :
+
+                                    Rincez les olives et les anchois à l'eau froide et mixez l'ensemble en ajoutant
+                                    l'huile d'olive
+                                    jusqu'à
+                                    consistance souhaitée. Servir très frais.
+
+                                    Tapenade verte :
+
+                                    tapenade verte
+                                    - 300gr d'olives vertes dénoyautées
+
+                                    - 4/5 cornichons coupés en petits morceaux
+
+                                    - 1 c. à café rase de pesto (Barilla i pesti alla Genovese)
+
+                                    - 1 c. à café bombé de crème fraîche
+
+                                    - 2 gousses d'ail
+
+                                    - Huile d'olive
+
+                                    - Sel et poivre
+
+                                    Préparation :
+
+                                    Rincez les olives et mixez tous les ingrédients en ajoutant l'huile d'olive jusqu'à
+                                    consistance
+                                    souhaitée.
+                                    Servir très frais.
+
+                                </p>
+                                <p>
+                                    Doser son Ricard :
+
+                                    C'est au contact d'une eau bien fraîche, d'une température idéalement comprise entre
+                                    5 et 8°C, que
+                                    l'essence
+                                    d'anis libère parfaitement ses arômes.
+                                    Selon les goûts, 3 à 7 volumes d'eau sont ajoutés, 5 étant la recommandation des
+                                    puristes ! L'huile
+                                    essentielle d'anis de Ricard se trouble facilement.
+                                    Les glaçons viennent toujours en dernier ! L'huile essentielle d'anis est fragile.
+                                    Trop vite
+                                    refroidie,
+                                    elle
+                                    forme des paillettes qui apparaissent à la surface du verre.
+                                    Pour préserver l'aspect homogène de Ricard, on prendra soin de toujours mettre les
+                                    glaçons après
+                                    l'eau.
+                                    C'est également pour cette raison qu'une
+                                    bouteille de Ricard ne doit pas être conservée à moins de 12°C pour préserver toutes
+                                    ses qualités.
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="../cuisinekamj/img/galette.jpg" alt="image" />
+            <div class="card-body">
+                <h5 class="card-title">Galette de bretagne</h5>
+                <p class="card-text">La crêpe bretonne est un plat traditionnel consommé couramment en Basse-Bretagne.
+                    Devenue particulièrement renommée en France et ailleurs.</p>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                    voir plus..
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Galettes</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <br><br>
+                                La galette est un plat typiquement breton. Tout d'abord, un petit cour d'histoire :
+                                <br>
+                                Le sarrasin, ingrédient phare des galettes et crêpes bretonne, vient d'Asie, et fut
+                                ramené au XIIème
+                                siècle lors des croisades. Les terres de Bretagne sont excellentes pour cultiver cette
+                                céréale.
+
+                                La galette de sarrasin se cuisait à la poêle, uniquement sur une face et restait souple
+                                et tendre.
+                                La tradition voulait qu’on la coupe en fines lamelles pour accompagner des soupes et
+                                bouillons. Mais
+                                elle pouvait être aussi garnie d'œufs, de pâté, de saucisses, de sardines et de
+                                multiples autres
+                                produits locaux.
+                                <br><br>
+                                Il ne faut pas confondre la galette bretonne avec la crêpe bretonne. La crêpe est une
+                                pâte sucrée, à
+                                base de farine, oeuf, lait, sucre et eau. On peut également y rajouter des ingrédients
+                                comme du
+                                rhum, de la canelle .. Pour y ajouter du goût en fonction de ses préférences.
+                                <br><br>
+                                L'avantage de la galette est que c'est facile à préparer et peu onéreux. De plus, on
+                                peut y metter
+                                quasiment tous les aliments, même si le sucré s'y prête un peu moins bien. Chacun est
+                                donc libre de
+                                faire sa propre recette en fonction de ses goûts ! Enjoy :)
+                                <br><br>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="../cuisinekamj/img/pizza.jpg" alt="image" />
+            <div class="card-body">
+                <h5 class="card-title">Pizza</h5>
+                <p class="card-text">Plat emblématique de la culture italienne, et de la restauration rapide dans le
+                    monde entier, elle est déclinée sous de multiples variantes.</p>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                    voir plus..
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Pizza</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p></p>La pizza est une recette de cuisine traditionnelle de la cuisine italienne,
+                                originaire
+                                de Naples en Italie (cuisine napolitaine) à base de galette de pâte à pain, garnie de
+                                divers mélanges d’ingrédients (sauce tomate, tomates séchées, légumes, fromage,
+                                charcuterie, olives, huile d'olive…)1 et cuite au four. Plat emblématique de la culture
+                                italienne, et de la restauration rapide dans le monde entier, elle est déclinée sous de
+                                multiples variantes.</p>
+
+                                <p>recette pizza margherita :</p>
+                                Pour commencer, les tomates doivent être pelées et découpées en petits dés.
+
+                                Mettez-les ensuite dans la poêle et attendez que la sauce ait une consistance lisse.
+
+                                Assaisonnez la sauce tomate avec une pincée de sel, un peu de poivre et ½ cuillère à
+                                soupe d’huile d’olive vierge extra.
+
+                                Préparez des bouquets garnis : thym, laurier ou même romarin et incorporez dans la
+                                sauce.
+
+                                Laissez mijoter et remuez souvent pour bien mélanger.
+
+                                Coupez les boules de mozzarella en dés (ou en tranches fines si vous préférez).
+
+                                Une pizza est encore meilleure si vous avez fait la pâte vous-même.
+
+                                Pour ce faire, mettez dans un grand saladier la farine et salez votre préparation à
+                                souhait.
+
+                                Ajoutez la levure boulangère, le sucre et l’huile d’olive mélangés avec un peu d’eau
+                                tiède.
+
+                                Pétrissez la pâte jusqu’à ce qu’elle soit homogène. Nous vous conseillons de pétrir à la
+                                main avec des mouvements bien fermes.
+
+                                Recouvrez la pâte d’un torchon humide et laissez reposer en attendant qu’elle double de
+                                volume.
+
+                                Le temps de pause est d’environ 30 minutes.
+
+                                Préchauffez le four à 250°C.
+
+                                Travaillez la pâte sur un plan de travail fariné et donnez à la préparation une forme de
+                                cercle de 25 cm de diamètre.
+
+                                Étalez-la de manière à obtenir une pâte fine.
+
+                                Versez le coulis de tomate par-dessus.
+
+                                Veillez à bien couvrir toute la pâte de la sauce déjà préparée.
+
+                                Posez la mozzarella coupée en morceaux.
+
+                                Garnissez en ajoutant de l’origan ou d’autres épices selon vos goûts pour plus de
+                                saveur.
+
+                                Parsemez également d’ail râpé.
+
+                                Pour plus de couleurs, décorez selon vos goûts le plat de pizza margherita avec des
+                                olives et quelques feuilles de basilic.
+
+                                Mettez dans un plat recouvert de papier sulfurisé et cuire au four pendant 15 minutes ou
+                                jusqu’à ce que la pâte soit dorée.
+
+                                Dégustez dès la sortie du four, bien chaud.
+
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <<<<<<< HEAD </body>=======</div> </div> <footer>
+
+                <nav class='flex'>
+                    <a href='#'> <i class="fab fa-instagram"></i></a>
+                    <a href='#'> <i class="fab fa-facebook-square"></i></a>
+                    <a href='#'> <i class="fab fa-twitter-square"></i></a>
+                    <a href='#'> <i class="fab fa-linkedin"></i></a>
+                </nav>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur ipsam minima vero maxime?
+                    Nam a libero ab est. Harum, molestiae recusandae provident dicta natus dolorum ex fugiat aspernatur
+                    necessitatibus sit.
+                </p>
+
+                </footer>
+
 </body>
+
+>>>>>>> aya
 
 </html>
