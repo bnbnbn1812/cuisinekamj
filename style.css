@@ -108,17 +108,13 @@ a:hover {
 
 /***********************************MAIN**********************************************/
 
-.Bretagne {
-    text-align: center;
-    border-width: 50px;
-    border-style: double;
-    border-color: black;
-    border-radius: 3cm;
-    background-color: white;
+.all-cards {
+    padding: 100px 100px;
+
 }
 
 span {
-    font-size: 1.5cm;
+    font-size: 1, 5cm,
 }
 
 
