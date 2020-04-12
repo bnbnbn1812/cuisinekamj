@@ -4,24 +4,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" />
-    <title>Plats du monde</title>
+    <title>Document</title>
 </head>
 
 <body>
-    <div>
-        <p>Le fion, fion vendéen ou flan maraîchin1 est un flan aux œufs parfumé.<p>
 
-                <p>Cette pâtisserie, typique du Marais vendéen, se prépare traditionnellement lors des fêtes de Pâques
-                    et des communions, époque à laquelle
-                    les poules pondent en abondance. À l'origine, il était fait dans un moule à bords très hauts. </p>
+    <div class="card-deck">
+        <div class="card">
+            <img class="card-img-top" src="../cuisinekamj/img/fionvendeen.jpg" alt="image" />
+            <div class="card-body">
+                <h5 class="card-title">Fion vendéen</h5>
+                <p class="card-text">Le fion, fion vendéen ou flan maraîchin est un flan aux œufs parfumé.</p>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+                    voir plus..
+                </button>
+                <!-- Modal -->
+                <div class="modal fade" id="card1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+                    aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                                <button type="button" class="" data-dismiss="modal" aria-label="">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Le fion, fion vendéen ou flan maraîchin1 est un flan aux œufs parfumé.<p>
 
-            </p>Ce flan est composé d'une pâte qui après cuisson forme une sorte de croûte. Le flan proprement dit,
-            appelé « fionée » ou « fionaï »,
-            est un mélange d'œufs et de lait, parfumé à la cannelle et à la vanille. Le flan maraîchin est un dérivé de
-            la fionaïe entourée de pâte.</p>
-        <img src="/img/fionvendeen.jpg" alt="image" height="300px" width="300px" />
-    </div>
+                                        <p>Cette pâtisserie, typique du Marais vendéen, se prépare traditionnellement
+                                            lors des fêtes de
+                                            Pâques
+                                            et des communions, époque à laquelle
+                                            les poules pondent en abondance. À l'origine, il était fait dans un moule à
+                                            bords très
+                                            hauts.
+                                        </p>
+                                    </p>Ce flan est composé d'une pâte qui après cuisson forme une sorte de croûte. Le
+                                    flan proprement
+                                    dit,
+                                    appelé « fionée » ou « fionaï »,
+                                    est un mélange d'œufs et de lait, parfumé à la cannelle et à la vanille. Le flan
+                                    maraîchin est un
+                                    dérivé
+                                    de
+                                    la fionaïe entourée de pâte.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
 </body>
 
 </html>
